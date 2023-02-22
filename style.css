@@ -1,0 +1,23 @@
+
+/* Background styles */
+html{
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+/* Glassmorphism card effect */
+#card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    text-align: center;
+}
